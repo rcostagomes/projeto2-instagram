@@ -1,0 +1,543 @@
+.BO {
+    display: flex;
+    margin-left: 70px;
+    height: 82px;
+    width: 600;
+ }
+
+ .container { 
+     display: flex;
+     margin-top: 54px;
+     width: 1920px;
+     height: 2000px;
+     overflow: hidden;
+ }
+.ContainerStorys{
+    width:614px ;
+    height: 70px
+}
+
+
+ .feed {
+     margin-top: 20px;
+     margin-left: 145px;
+     width: 614px;
+     height: 2000px
+ }
+.storys {
+    display: flex;
+    flex-direction: column;
+    z-index:1;
+    margin-bottom: 28px;
+    width:614px ;
+    height: 118px;
+    border-top:  1px solid #DBDBDB;
+    border-bottom:  1px solid #DBDBDB ;
+    border-left:  1px solid #DBDBDB ; 
+    border-right: 1px solid #DBDBDB ;
+    border-radius: 5px;
+    overflow: hidden;
+}
+    
+
+.storys2 {
+    z-index:1;
+    width: 614px;
+    height:70px;
+    align-items: center;
+    display: flex;
+    justify-content:space-around;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.storys01 {
+    z-index:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.storys01-1{
+    z-index:1;
+    margin-top: 2px;
+    margin-left: 4.5px;
+    position: absolute;
+}
+.storys01-2 {
+    z-index:1;
+    margin-top: 2px;
+    margin-left: 5px;
+    position: absolute;
+}
+
+.bolinha { 
+    cursor: pointer;
+    margin-left: 14px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 66px;
+    width: 66px;
+}
+.bolinha1 {
+    cursor: pointer;
+    margin-left: 14px;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 66px;
+    width: 66px;
+}
+
+.imagemstorys { 
+width: 56px;
+height: 56px;
+left: 238px;
+top: 111px;
+}
+
+.nomestorys {
+    display: flex;
+    margin-left: 10px;
+    width: 800px;
+    height: 20px;
+}
+
+.nomestorys1{
+    font-weight:400;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 27px;
+    width: 50px;
+    height: 10px;
+}
+
+.nomestorys2{
+    font-weight:400;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 30px;
+    width: 50px;
+    height: 10px;
+}
+
+.Setinhas{
+    z-index:2;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.Setinha {
+    position:absolute;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: unset;
+    position: absolute;
+    right: 50px;
+    color: #ffffff;
+    top: 30%;
+    cursor: pointer;
+}
+
+
+.publi {
+    margin-top: 80px;
+    height: 749px;
+    width: 614px;  
+    border-radius: 5px;
+    border-top:  1px solid #DBDBDB;
+    border-bottom:  1px solid #DBDBDB ;
+    border-left:  1px solid #DBDBDB ; 
+    border-right: 1px solid #DBDBDB ;
+    
+}
+
+.publi1 {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+
+.publi-2 {
+    margin-top: 80px;
+    height: 749px;
+    width: 614px;  
+    border-radius: 5px;
+    border-top:  1px solid #DBDBDB;
+    border-bottom:  1px solid #DBDBDB ;
+    border-left:  1px solid #DBDBDB ; 
+    border-right: 1px solid #DBDBDB ;
+    
+}
+.imgperfil{
+    margin-left: 15px;
+    width: 32px;
+    height: 32px;
+}
+.imgpubli {
+    height: 612px;
+    width: 612px;
+}
+.foto {
+    margin-left: 1px;
+    margin-right: 1px;
+    height: 612px;
+    width: 612px;
+
+}
+
+.autorpubli {
+ width: 32px;
+ height: 32px;
+}
+
+.textopubli {
+    font-family: "Roboto";
+    font-size:  14px;
+    font-weight: bold;
+    font-weight: 500px;
+    margin-left: 15px;
+    width: 109px;
+    height: 21px;
+}
+
+.pontos {
+    height: 16px;
+    width: 16px;
+    margin-left: 409px;
+}
+
+.publi2{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+}
+.curtir {
+    font-size: 22px;
+    margin-left: 10px;
+}
+.comentar {
+    font-size: 22px;
+    margin-left: 5px;
+}
+.compartilhar {
+    font-size: 22px;
+    margin-left: 5px;
+}
+
+.salvar  {
+    font-size: 22px;
+    margin-left: 240px;
+}
+
+
+.publi3 {
+    display: flex;
+    align-items: center;
+    height: 27px;
+    width: 100%;
+}
+
+.repsondeai2{
+    margin-left: 20px;
+    margin-right: 5px;
+height: 20px;
+width: 20px;
+}
+
+.negrito {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.containerfeed2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.feed2 {
+    display: flex;
+    margin-top: 27px;
+    width: 400px;
+    height: 320px;
+}
+.perfilinsta{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 250px;
+    height: 55px;
+}
+.perfildoinsta{
+    width: 52px;
+    height: 52px;
+}
+
+.textoperfil {
+    font-weight: bold;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Letracinza {
+    font-weight:lighter;
+    font-size: 12px;
+    color: #8E8E8E;
+}
+
+.organizarpefils 
+ {  
+    width: 200px;
+    height: 320px;
+
+}
+
+.perfils {
+    display: flex;
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 200px;
+    height:50px;
+}
+
+.textoperfils {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.fotosdepefils {
+    margin-top: 8px;
+    width: 32px;
+    height: 32px;
+}
+
+.sugestoes{
+    margin-top: 20px;
+    display: flex;
+}
+
+.segestoespvc{
+    font-size: 14px;
+    font-family: "Roboto";
+    margin-left: 10px;
+    color: #8E8E8E;
+}
+
+.vertudo {
+    font-size: 14px;
+    font-family: "Roboto";
+    margin-left: 90px;
+}
+
+
+.seguevc {
+    font-weight: bold;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+ }
+
+.seguevc1 {
+    margin-left: 50px;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-top: 45px;
+    font-size: 14px;
+    color: #139EF2;
+
+}
+.seguevc2 {
+    margin-left: 50px;
+    font-family: "Roboto";
+    margin-top: 30px;
+    font-size: 14px;
+    color: #139EF2;
+}
+
+.politicaseprvi {
+    font-size: 12px;
+    color: #8E8E8E;
+    width: 400px;
+    height: 320px;
+}
+
+.isnta {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+
+
+
+@media only screen and (max-width: 936px) {
+.containerfeed2 {
+    display: none;
+}
+.Barrainsta{
+    background-color: #ffff;
+    z-index:99;
+    border-bottom:  1px solid #DBDBDB ;
+    position: fixed;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.instalogo {
+    z-index:99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    height: 19px;
+    width: 19px; 
+ }
+.Barrainsta2 {
+  z-index:99;
+  width: 100%;
+  height: 22px;
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  border-left: 1px solid #DBDBDB;
+}
+.pesquisar {
+    height: 28px;
+    width: 215px;
+    margin-left: 180px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #979797;
+    border-top:  1px solid #DBDBDB;
+    border-bottom:  1px solid #DBDBDB ;
+    border-left:  1px solid #DBDBDB ; 
+    border-right: 1px solid #DBDBDB ;
+}
+.feed {
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 614px;
+    height: 2000px
+}
+.icones {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 120px;
+    }
+    .barrafinal {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 614px){
+ .body{
+     width: 100%;
+ }
+
+.container{
+    width: 100%;
+    margin-left: 0px;
+}
+.BO {
+    margin-left: 0px;
+}
+.feed {
+    margin-top: none;
+    margin-left: 0px;
+}
+    .pesquisar {
+        display: none;
+    }
+
+    .Barrainsta2 {
+
+        z-index:99;
+        width: 100%;
+        height: 22px;
+        display: flex;
+        align-items: center;
+        border:none;
+    }
+
+    .instalogo {
+        z-index:99;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25px;
+        height: 19px;
+        width: 19px; 
+    }
+    .instatext{
+        display: flex;
+        align-items: center;
+        width: 103px;
+        height: 29px;
+        margin-left: 185px;
+    }
+    .seta {
+        margin-left: 60px;
+        margin-right: none;
+        font-size: 22px;
+    }
+   
+    .busola {
+        display: none;
+    }
+   .coracao {
+    display: none;
+   }
+   .boneco {
+    display: none;
+   }
+  .storys {
+      margin-left: 2px;
+    border: none;
+  }
+
+
+  .Setinha {
+      display: none;
+  }
+
+  .Setinhas {
+      display: none;
+  }
+
+  .barrafinal{
+      font-size: 22px;
+    width: 614px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    background-color: #ffffff;
+    border-top: 1px solid #dbdbdb;
+    z-index: 1;
+ }
+.home {
+    margin-left: 5px;
+}
+.person {
+    margin-right: 5px;
+}
+}

@@ -1,0 +1,86 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+ 
+.Barrainsta{
+    background-color: #ffff;
+    z-index:99;
+    border-bottom:  1px solid #DBDBDB ;
+    position: fixed;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instalogo {
+    z-index:99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 216px;
+    height: 19px;
+    width: 19px; 
+ }
+
+.Barrainsta2 { 
+    z-index:99;
+    width: 100%;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    border-left: 1px solid #DBDBDB;
+}
+
+.instatext{
+    width: 103px;
+    height: 29px;
+    margin-left: 10px
+}
+.pesquisar {
+
+    height: 28px;
+    width: 215px;
+    margin-left: 241px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #979797;
+    border-top:  1px solid #DBDBDB;
+    border-bottom:  1px solid #DBDBDB ;
+    border-left:  1px solid #DBDBDB ; 
+    border-right: 1px solid #DBDBDB ;
+}
+
+.icones {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-left: 250px;
+}
+
+.seta {
+    margin-right: 10px;
+    font-size: 22px;
+}
+.boneco{
+    font-size: 22px;
+}
+.busola{
+    margin-right: 10px;
+    font-size: 22px;
+}
+.coracao {
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+
+
+.barrafinal{
+ display: none;
+ }
